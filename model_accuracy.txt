@@ -1,0 +1,20 @@
+[600]
+('Test Accuracy of HOG = ', 0.7684)
+('Test Accuracy of LBP = ', 0.2421)
+('Test Accuracy of HOG+LBP = ', 0.8105)
+('Test Accuracy of scaled HOG = ', 0.9684)
+('Test Accuracy of scaled LBP = ', 0.7684)
+('Test Accuracy of scaled HOG+LBP = ', 0.9368)
+
+[1200]
+('Test Accuracy of HOG = ', 0.8201)
+('Test Accuracy of LBP = ', 0.291)
+('Test Accuracy of HOG+LBP = ', 0.8201)
+('Test Accuracy of scaled HOG = ', 0.9418)
+('Test Accuracy of scaled LBP = ', 0.8095)
+('Test Accuracy of scaled HOG+LBP = ', 0.9735)
+
+('Test Accuracy of LBP3x3 = ', 0.291)
+('Test Accuracy of HOG+LBP3x3 = ', 0.8677)
+('Test Accuracy of scaled LBP3x3 = ', 0.9365)
+('Test Accuracy of scaled HOG+LBP3x3 = ', 0.9788)

@@ -1,0 +1,5 @@
+m6motorway:
+x: 340 y: 150 x+w: 640 y+h: 360
+
+videoplayback:
+x: 0 y: 160 x+w: 540 y+h: 360
