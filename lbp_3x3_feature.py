@@ -24,9 +24,10 @@ def get_pixel(img, idx, idy, default=0):
     
 def lbp(image, visualize=False):
     transform = np.zeros((image.shape[0], image.shape[1]), dtype=np.double)
+    height, width = image.shape[:2]
     
-    for x in range(0, len(image)):
-        for y in range(0, len(image)):
+    for x in range(0, height):
+        for y in range(0, width):
             center        = image[x,y]
             top_left      = get_pixel(image, x-1, y-1)
             top_up        = get_pixel(image, x, y-1)

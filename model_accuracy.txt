@@ -18,3 +18,11 @@
 ('Test Accuracy of HOG+LBP3x3 = ', 0.8677)
 ('Test Accuracy of scaled LBP3x3 = ', 0.9365)
 ('Test Accuracy of scaled HOG+LBP3x3 = ', 0.9788)
+
+[videoplayback]
+Test Accuracy of scaled HOG for 64x64 images = 0.9762
+Test Accuracy of scaled LBP for 64x64 images = 0.8929
+Test Accuracy of scaled HOG+LBP for 64x64 images = 0.9762
+Test Accuracy of scaled HOG for 64x32 images = 0.973
+Test Accuracy of scaled LBP for 64x32 images = 0.973
+Test Accuracy of scaled HOG+LBP for 64x32 images = 1.0
