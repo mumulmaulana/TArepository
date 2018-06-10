@@ -26,3 +26,144 @@ Test Accuracy of scaled HOG+LBP for 64x64 images = 0.9762
 Test Accuracy of scaled HOG for 64x32 images = 0.973
 Test Accuracy of scaled LBP for 64x32 images = 0.973
 Test Accuracy of scaled HOG+LBP for 64x32 images = 1.0
+
+[pix_per_cell = (8, 8)]
+Test Accuracy of scaled HOG for 64x64 images = 0.9644 (+/- 0.0134)
+Test Accuracy of scaled LBP for 64x64 images = 0.8731 (+/- 0.0256)
+Test Accuracy of scaled HOG+LBP for 64x64 images = 0.9631 (+/- 0.0151)
+Test Accuracy of scaled HOG for 64x32 images = 0.9975 (+/- 0.0100)
+Test Accuracy of scaled LBP for 64x32 images = 0.9763 (+/- 0.0284)
+Test Accuracy of scaled HOG+LBP for 64x32 images = 0.9988 (+/- 0.0075)
+
+[pix_per_cell = (4, 4)]
+Test Accuracy of scaled HOG for 64x64 images = 0.8746 (+/- 0.0861)
+Test Accuracy of scaled LBP for 64x64 images = 0.7983 (+/- 0.0801)
+Test Accuracy of scaled HOG+LBP for 64x64 images = 0.8750 (+/- 0.0944)
+Test Accuracy of scaled HOG for 64x32 images = 0.9275 (+/- 0.1317)
+Test Accuracy of scaled LBP for 64x32 images = 0.9587 (+/- 0.0592)
+Test Accuracy of scaled HOG+LBP for 64x32 images = 0.9537 (+/- 0.0725)
+
+[pix_per_cell = (16, 16)]
+Test Accuracy of scaled HOG for 64x64 images = 0.9113 (+/- 0.0485)
+Test Accuracy of scaled LBP for 64x64 images = 0.7983 (+/- 0.0801)
+Test Accuracy of scaled HOG+LBP for 64x64 images = 0.9042 (+/- 0.0570)
+Test Accuracy of scaled HOG for 64x32 images = 0.9800 (+/- 0.0490)
+Test Accuracy of scaled LBP for 64x32 images = 0.9587 (+/- 0.0592)
+Test Accuracy of scaled HOG+LBP for 64x32 images = 0.9838 (+/- 0.0336)
+
+[cell_per_block = (1, 1)]
+Test Accuracy of scaled HOG for 64x64 images = 0.8896 (+/- 0.0546)
+Test Accuracy of scaled LBP for 64x64 images = 0.7983 (+/- 0.0801)
+Test Accuracy of scaled HOG+LBP for 64x64 images = 0.8900 (+/- 0.0548)
+Test Accuracy of scaled HOG for 64x32 images = 0.9638 (+/- 0.0884)
+Test Accuracy of scaled LBP for 64x32 images = 0.9587 (+/- 0.0592)
+Test Accuracy of scaled HOG+LBP for 64x32 images = 0.9812 (+/- 0.0280)
+
+[cell_per_block = (4, 4)]
+Test Accuracy of scaled HOG for 64x64 images = 0.8952 (+/- 0.0638)
+Test Accuracy of scaled LBP for 64x64 images = 0.7983 (+/- 0.0801)
+Test Accuracy of scaled HOG+LBP for 64x64 images = 0.9010 (+/- 0.0524)
+Test Accuracy of scaled HOG for 64x32 images = 0.9750 (+/- 0.0602)
+Test Accuracy of scaled LBP for 64x32 images = 0.9587 (+/- 0.0592)
+Test Accuracy of scaled HOG+LBP for 64x32 images = 0.9913 (+/- 0.0160)
+
+[NEW_CLASSIFIER]
+[pix_per_cell = (8, 8)]
+Test Accuracy of scaled HOG for 64x64 images = 0.9068 (+/- 0.0553)
+Test Accuracy of scaled LBP for 64x64 images = 0.7880 (+/- 0.0802)
+Test Accuracy of scaled HOG+LBP for 64x64 images = 0.9099 (+/- 0.0547)
+Test Accuracy of scaled HOG for 64x32 images = 0.9542 (+/- 0.1152)
+Test Accuracy of scaled LBP for 64x32 images = 0.9486 (+/- 0.0766)
+Test Accuracy of scaled HOG+LBP for 64x32 images = 0.9833 (+/- 0.0242)
+[0.92708333 0.9140625  0.87760417 0.921875   0.94010417 0.91927083
+ 0.90364583 0.90625    0.91927083 0.83854167]
+[0.80208333 0.87760417 0.8125     0.73697917 0.828125   0.76041667
+ 0.7734375  0.75260417 0.77083333 0.765625  ]
+[0.89583333 0.92447917 0.8828125  0.9296875  0.93489583 0.92708333
+ 0.91145833 0.9140625  0.93489583 0.84375   ]
+[0.95833333 0.79166667 1.         1.         0.97222222 0.95833333
+ 0.94444444 0.94444444 0.98611111 0.98611111]
+[0.97222222 0.98611111 0.95833333 0.95833333 0.93055556 0.91666667
+ 1.         0.88888889 0.88888889 0.98611111]
+[0.98611111 0.98611111 1.         0.95833333 0.97222222 0.97222222
+ 1.         0.98611111 0.98611111 0.98611111]
+
+[pix_per_cell = (16, 16)]
+Test Accuracy of scaled HOG for 64x64 images = 0.9096 (+/- 0.0760)
+Test Accuracy of scaled LBP for 64x64 images = 0.7880 (+/- 0.0802)
+Test Accuracy of scaled HOG+LBP for 64x64 images = 0.9068 (+/- 0.0689)
+Test Accuracy of scaled HOG for 64x32 images = 0.9792 (+/- 0.0378)
+Test Accuracy of scaled LBP for 64x32 images = 0.9486 (+/- 0.0766)
+Test Accuracy of scaled HOG+LBP for 64x32 images = 0.9792 (+/- 0.0311)
+[0.921875   0.9140625  0.93489583 0.94270833 0.96614583 0.921875
+ 0.90625    0.87239583 0.89322917 0.82291667]
+[0.80208333 0.87760417 0.8125     0.73697917 0.828125   0.76041667
+ 0.7734375  0.75260417 0.77083333 0.765625  ]
+[0.875      0.91145833 0.9140625  0.94270833 0.95833333 0.92447917
+ 0.90885417 0.890625   0.9140625  0.828125  ]
+[0.98611111 1.         0.94444444 1.         0.97222222 0.94444444
+ 0.98611111 0.98611111 0.98611111 0.98611111]
+[0.97222222 0.98611111 0.95833333 0.95833333 0.93055556 0.91666667
+ 1.         0.88888889 0.88888889 0.98611111]
+[0.98611111 1.         0.97222222 0.95833333 0.95833333 0.95833333
+ 1.         0.98611111 0.98611111 0.98611111]
+
+[pix_per_cell = (4, 4)]
+Test Accuracy of scaled HOG for 64x64 images = 0.8776 (+/- 0.0778)
+Test Accuracy of scaled LBP for 64x64 images = 0.7880 (+/- 0.0802)
+Test Accuracy of scaled HOG+LBP for 64x64 images = 0.8753 (+/- 0.0933)
+Test Accuracy of scaled HOG for 64x32 images = 0.9181 (+/- 0.1544)
+Test Accuracy of scaled LBP for 64x32 images = 0.9486 (+/- 0.0766)
+Test Accuracy of scaled HOG+LBP for 64x32 images = 0.9472 (+/- 0.0722)
+[0.83333333 0.90364583 0.8046875  0.89322917 0.9296875  0.8984375
+ 0.875      0.89322917 0.9140625  0.83072917]
+[0.80208333 0.87760417 0.8125     0.73697917 0.828125   0.76041667
+ 0.7734375  0.75260417 0.77083333 0.765625  ]
+[0.78385417 0.91145833 0.81510417 0.90104167 0.92708333 0.90104167
+ 0.875      0.90104167 0.91145833 0.82552083]
+[0.95833333 0.80555556 0.98611111 1.         0.91666667 0.86111111
+ 0.76388889 0.95833333 0.94444444 0.98611111]
+[0.97222222 0.98611111 0.95833333 0.95833333 0.93055556 0.91666667
+ 1.         0.88888889 0.88888889 0.98611111]
+[0.95833333 0.90277778 1.         0.95833333 0.91666667 0.90277778
+ 0.90277778 0.95833333 0.98611111 0.98611111]
+
+[cell_per_block = (1, 1)]
+Test Accuracy of scaled HOG for 64x64 images = 0.8930 (+/- 0.0589)
+Test Accuracy of scaled LBP for 64x64 images = 0.7880 (+/- 0.0802)
+Test Accuracy of scaled HOG+LBP for 64x64 images = 0.8932 (+/- 0.0591)
+Test Accuracy of scaled HOG for 64x32 images = 0.9472 (+/- 0.1278)
+Test Accuracy of scaled LBP for 64x32 images = 0.9486 (+/- 0.0766)
+Test Accuracy of scaled HOG+LBP for 64x32 images = 0.9792 (+/- 0.0311)
+[0.87760417 0.921875   0.86197917 0.90885417 0.92708333 0.8828125
+ 0.8828125  0.90364583 0.9296875  0.83333333]
+[0.80208333 0.87760417 0.8125     0.73697917 0.828125   0.76041667
+ 0.7734375  0.75260417 0.77083333 0.765625  ]
+[0.84635417 0.91145833 0.8828125  0.90625    0.92447917 0.90364583
+ 0.88541667 0.90625    0.9296875  0.8359375 ]
+[0.95833333 0.77777778 0.98611111 0.98611111 0.98611111 0.90277778
+ 0.91666667 0.98611111 0.98611111 0.98611111]
+[0.97222222 0.98611111 0.95833333 0.95833333 0.93055556 0.91666667
+ 1.         0.88888889 0.88888889 0.98611111]
+[0.98611111 0.98611111 0.98611111 0.95833333 0.97222222 0.94444444
+ 1.         0.98611111 0.98611111 0.98611111]
+
+[cell_per_block = (4, 4)]
+Test Accuracy of scaled HOG for 64x64 images = 0.9021 (+/- 0.0613)
+Test Accuracy of scaled LBP for 64x64 images = 0.7880 (+/- 0.0802)
+Test Accuracy of scaled HOG+LBP for 64x64 images = 0.9044 (+/- 0.0620)
+Test Accuracy of scaled HOG for 64x32 images = 0.9597 (+/- 0.1035)
+Test Accuracy of scaled LBP for 64x32 images = 0.9486 (+/- 0.0766)
+Test Accuracy of scaled HOG+LBP for 64x32 images = 0.9833 (+/- 0.0272)
+[0.94270833 0.9140625  0.86979167 0.93489583 0.91927083 0.91666667
+ 0.87760417 0.890625   0.91666667 0.83854167]
+[0.80208333 0.87760417 0.8125     0.73697917 0.828125   0.76041667
+ 0.7734375  0.75260417 0.77083333 0.765625  ]
+[0.9140625  0.921875   0.88802083 0.93229167 0.92708333 0.921875
+ 0.8828125  0.89322917 0.93489583 0.828125  ]
+[0.95833333 0.875      1.         1.         1.         0.97222222
+ 0.84722222 0.97222222 0.97222222 1.        ]
+[0.97222222 0.98611111 0.95833333 0.95833333 0.93055556 0.91666667
+ 1.         0.88888889 0.88888889 0.98611111]
+[0.95833333 0.98611111 1.         0.98611111 0.98611111 0.95833333
+ 1.         0.98611111 0.98611111 0.98611111]
